@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #7cc6fe;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Updated to align items at the top */
+  min-height: 100vh;
+  text-align: center;
+}
+.Exit{ position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: #ff3333; /* Red background color */
+  color: #ffffff;
+  border: none;
+  border-radius: 50%; /* Make it a circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+
+}
+.card {
+  background-color: #252d4a;
+  width: 600px; /* Adjust the width as needed */
+  height: min-content;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-evenly;
+  color: #ffffff;
+  margin: 20px;
+  transition: height 0.3s ease; /* Added transition for smooth effect */
+}
+
+.card:hover {
+  height: 300px; /* Adjust the expanded height as needed */
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.Heading{
+  font-size: 60px; 
+  text-decoration: underline;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.Box{
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.content {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.button {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #7cc6fe; /* Change the button color */
+  border-radius: 15px;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #234668;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #555e7d;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button svg {
+  margin-right: 5px;
+}

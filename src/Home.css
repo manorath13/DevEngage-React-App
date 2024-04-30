@@ -1,0 +1,75 @@
+.card1 {
+    min-height: 200px;
+    width: 80%; /* Use percentage for better responsiveness */
+    max-width: 500px; /* Set a maximum width */
+    margin: 40px auto; /* Center the card horizontally */
+    text-align: center;
+    background-color: #252d4a;
+    display: flex;
+    flex-direction: column;
+    padding: 2%; /* Use percentage for padding */
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px; /* Reduced border radius for smaller screens */
+}
+
+/* Button styles */
+.button1 {
+    text-align: center;
+    width: 60%; /* Adjust the button width */
+    max-width: 200px; /* Set a maximum width for the button */
+    margin: 10px auto; /* Center the button horizontally */
+}
+
+/* Heading styles */
+.Heading1 {
+    color: black;
+    text-decoration: none;
+    font-size: 4vw; /* Use viewport width for font size */
+    margin-bottom: 2vw; /* Use viewport width for margin */
+}
+
+/* Container styles */
+.home-container {
+    text-align: center;
+}
+
+/* Center content within the button */
+.button-content {
+    margin: auto;
+    width: 300px;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .card1 {
+        width: 90%; /* Adjust width for smaller screens */
+        margin-bottom: 10px; /* Reduce margin for smaller screens */
+    }
+
+    .Heading1 {
+        font-size: 5vw; /* Increase font size for smaller screens */
+        margin-bottom: 3vw; /* Increase margin for smaller screens */
+    }
+
+    .button1 {
+        width: 80%; /* Adjust button width for smaller screens */
+        max-width: 300px; /* Adjust maximum width for smaller screens */
+    }
+}
+.logout{
+    position: absolute;
+    right: 10px;
+    max-width: 10%;
+    margin-top: 10px;
+    height: 30px;
+    background-color: #ff3333; /* Red background color */
+    color: #ffffff;
+    border: none; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+}
+
